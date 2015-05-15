@@ -1,4 +1,4 @@
-var fConsole = (function(){
+window.fConsole = (function(){
     function writeMessage(node, message) {
         var elem = document.createElement("div");
         elem.innerHTML = message;
